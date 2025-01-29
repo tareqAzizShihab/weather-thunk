@@ -1,0 +1,16 @@
+@import "tailwindcss";
+
+@layer utilities {
+  .bg-primary {
+    background-color: #b4d429;
+  }
+  .bg-dark {
+    background-color: #171923;
+  }
+}
+
+@layer components {
+  .container {
+    @apply mx-auto px-5;
+  }
+}
